@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.01">
+    <title>Baap Er Bank</title>
+      <!-- tailwind css and daisy ui link here  -->
+      <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.8.2/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1 class="text-7xl text-center mt-6">
+            leat get some  <span class="text-green-400">money broooooooo!!!</span>
+          </h1>
+    </header>
+    <main>
+        <section>
+            <div class="grid grid-cols-3 gap-4 mx-20  w-11/12  text-white	 my-11  ">
+                <div class="bg-green-400 p-10 rounded-xl	text-center ">
+                    <h1  class="text-4xl ">Deposit</h1>
+                    <h2   class="text-4xl  my-3">$<span id="num1">00</span></h2>
+                </div>
+                <div class="bg-emerald-400	p-10  rounded-xl  text-center ">
+                    <h1  class="text-4xl ">withdraw</h1>
+                    <h2  class="text-4xl my-3">$<span id="num2">00</span></h2>
+                </div>
+                <div class="bg-teal-400	 p-10 rounded-xl	text-center ">
+                    <h1  class="text-4xl ">Balance</h1>
+                    <h2  class="text-4xl my-3 ">$<span id="num3">1200</span></h2>
+                </div>
+              </div>
+        </section>
+        <section>
+            <div class="grid grid-cols-2 gap-4 mx-20  w-11/12 	 my-11  ">
+                <div class="bg-teal-100			p-10  rounded-xl   ">
+                    <h1  class="text-4xl   ">Deposit</h1><br><br>
+                    <input id="deposit" type="text" placeholder="Type here" class="input input-bordered input-accent w-full max-w-xs" /><br><br>
+                    <button id="deposit-btn" class="btn btn-success text-white">Deposit</button>
+                </div>
+
+                <div class="bg-blue-300		 p-10 rounded-xl	 ">
+                    <h1  class="text-4xl text-white ">withdraw</h1><br><br>
+                    <input id="withdraw" type="text" placeholder="Type here" class="input input-bordered text-green input-info w-full max-w-xs" /><br><br>
+                    <button id="withdraw-btn" class="btn  btn-success text-white">withdraw</button>
+
+
+                </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
